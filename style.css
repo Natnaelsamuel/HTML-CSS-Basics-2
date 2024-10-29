@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: #000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-bar {
+    margin: 20px 20px;
+}
+
+.nav-links {
+    margin: auto 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        display: grid;
+        margin: 10px auto;
+    }
+
+    .nav-links {
+        display: block;
+        padding: 10px;
+    }
+}
